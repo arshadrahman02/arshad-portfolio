@@ -1,7 +1,7 @@
 import React from "react";
 import { Bounce } from "react-awesome-reveal";
 import chef from "../../../assets/website/Screenshot_2023-06-28_08-46-02.png";
-import ImageButton3 from "../ImageButton2/ImageButton2";
+import ImageButton3 from "../ImageButton3/ImageButton3";
 
 const Card3 = () => {
   return (

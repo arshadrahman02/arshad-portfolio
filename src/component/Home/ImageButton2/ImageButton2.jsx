@@ -30,13 +30,13 @@ const ImageButton2 = ({ imageUrl }) => {
               target="_blank"
               href="https://github.com/arshadrahman02/assignment-toys-client"
             >
-              <button className="flex gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="flex mt-10 gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                 <FaGithub className="mt-1"></FaGithub> GitHub Link
               </button>
             </a>
 
             <a target="_blank" href="https://music-minds.netlify.app/">
-              <button className="flex gap-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded ml-2">
+              <button className="flex mt-10 gap-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded ml-2">
                 <TbWorldWww className="mt-1"></TbWorldWww> Live Link
               </button>
             </a>

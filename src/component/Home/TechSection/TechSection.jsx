@@ -11,8 +11,8 @@ import figma from "../../../assets/tech/figma.png";
 import { Bounce } from "react-awesome-reveal";
 const TechSection = () => {
   return (
-    <div className="lg:flex grid grid-cols-4  text-white w-[300px] mx-10 col lg:w-[1000px] lg:mx-[110px]  mt-10 lg:gap-10 gap-5 ">
-      <div className="lg:flex gap-2 mt-2 text-2xl font-bold">
+    <div className=" lg:flex grid grid-cols-4  text-white w-[300px] mx-10 col lg:w-[1000px] lg:mx-[230px]  mt-10 lg:gap-10 gap-5 ">
+      <div className="lg:flex gap-2 mt-2 text-2xl font-bold ">
         <h1>Tech </h1>
         <p>Stack</p>
         <p className="">|</p>

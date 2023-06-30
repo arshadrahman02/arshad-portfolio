@@ -53,7 +53,7 @@ const Banner = () => {
               </a>
             </div>
           </h1>
-          <div className="flex lg:w-64 w-44 gap-3 mx-[84px] lg:mx-52 lg:mt-10">
+          <div className="flex lg:w-64 w-44 gap-3 mx-[95px] lg:mx-52 lg:mt-10">
             <a
               target="_blank"
               href="https://www.facebook.com/profile.php?id=100073955862812"

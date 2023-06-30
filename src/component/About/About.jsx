@@ -41,7 +41,7 @@ const About = () => {
             </a>
           </p>
         </div>
-        <footer className=" mt-20 items-center p-4 bg-gray-500 lg:w-[1055.5px] mx-20 text-neutral-content">
+        <p className=" mt-20 items-center p-4 bg-gray-500  mx-20 text-neutral-content">
           <div className="items-center grid-flow-col ">
             <p className="text-2xl font-bold text-white ">CONNECT ME VIA</p>
           </div>
@@ -65,7 +65,7 @@ const About = () => {
               <img className="w-10" src={instagram} alt="" />
             </a>
           </div>
-        </footer>
+        </p>
         <div>
           <p className="text-2xl mt-5 font-bold font-mono">Education</p>
           <div className="grid lg:grid-cols-3  mt-5 mx-0">
