@@ -5,6 +5,7 @@ import facebook from "../../assets/socialMEdia/facebook-removebg-preview.png";
 import linkedin from "../../assets/socialMEdia/linkdin-removebg-preview.png";
 import twitter from "../../assets/socialMEdia/twitter-removebg-preview.png";
 import instagram from "../../assets/socialMEdia/instragram-removebg-preview.png";
+import Charts from "./Charts/Charts";
 const About = () => {
   return (
     <div>
@@ -45,29 +46,29 @@ const About = () => {
           <div className="items-center grid-flow-col ">
             <p className="text-2xl font-bold text-white ">CONNECT ME VIA</p>
           </div>
-          <div className="flex mt-10 lg:mx-[415px] gap-4 md:place-self-center md:justify-self-end">
+          <div className="flex mt-10 lg:mx-[550px] gap-4 md:place-self-center md:justify-self-end">
             <a
               target="_blank"
               href="https://www.facebook.com/profile.php?id=100073955862812"
             >
-              <img className="w-10" src={facebook} alt="" />
+              <img className="w-14" src={facebook} alt="" />
             </a>
             <a target="_blank" href="https://twitter.com/ArshadRahman02">
-              <img className="w-10" src={twitter} alt="" />
+              <img className="w-14" src={twitter} alt="" />
             </a>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/arshad-rahman02/"
             >
-              <img className="w-10 mt-1" src={linkedin} alt="" />
+              <img className="w-14 mt-1" src={linkedin} alt="" />
             </a>
             <a target="_blank" href="https://www.instagram.com/arshadrahman20/">
-              <img className="w-10" src={instagram} alt="" />
+              <img className="w-14" src={instagram} alt="" />
             </a>
           </div>
         </p>
         <div>
-          <p className="text-2xl mt-5 font-bold font-mono">Education</p>
+          <p className="text-3xl mt-10 font-bold font-mono">Education</p>
           <div className="grid lg:grid-cols-3  mt-5 mx-0">
             <p>
               B.A (Bachelor of Arts) <br />{" "}
@@ -83,6 +84,9 @@ const About = () => {
               <span>Government Muslim High School</span> <br />{" "}
               <span>2012-2018</span>{" "}
             </p>
+          </div>
+          <div>
+            <Charts></Charts>
           </div>
         </div>
       </div>
