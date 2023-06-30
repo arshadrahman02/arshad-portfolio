@@ -1,0 +1,13 @@
+.image-container {
+  width: 1000px; /* Adjust width as needed */
+  height: 600px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.image-container img {
+  transition: transform 10s ease;
+}
+
+.image-container img.hovered {
+  transform: translateY(-100%);
+}
