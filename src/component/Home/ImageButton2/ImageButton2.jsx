@@ -13,7 +13,7 @@ const ImageButton2 = ({ imageUrl }) => {
       <img
         src={imageUrl}
         alt="Image"
-        className={`transition-opacity duration-700 w-[400px] h-[600px] ${
+        className={`transition-opacity duration-700 w-[700px] h-[600px] ${
           isHovered ? "opacity-30" : "opacity-100"
         }`}
       />

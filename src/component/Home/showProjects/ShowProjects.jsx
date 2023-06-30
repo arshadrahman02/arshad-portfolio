@@ -14,7 +14,7 @@ const ShowProjects = () => {
           to="/projects"
           className="  btn text-white bg-gray-950 mt-5 hover:bg-emerald-400 p-4 mx-2"
         >
-          <span className="lg:mx-0 mx-14">Project Page</span>
+          <span className="lg:mx-0 mx-11">Project Page</span>
         </Link>
       </p>
     </div>
