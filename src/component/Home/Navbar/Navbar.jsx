@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../../../assets/resume/Screenshot__237_-removebg-preview.png";
 const Navbar = () => {
   return (
     <div className="navbar  bg-accent text-white   ">
@@ -55,8 +55,11 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/">
-          <a className="btn btn-ghost hover:text-cyan-300 text-white normal-case text-xl font-mono">
-            Arshad's Portfolio
+          <a className="btn btn-ghost hover:text-cyan-300 text-white normal-case text-xl  font-mono">
+            <div className="flex">
+              <img className="h-16" src={logo} alt="" />
+              <p className="lg:mt-5 mt-3"> Arshad's Portfolio</p>
+            </div>
           </a>
         </Link>
       </div>
