@@ -27,62 +27,64 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2  bg-accent rounded-box w-52"
           >
             <li>
-              <Link to="/" className="hover:text-cyan-300">
+              <Link to="/" className="hover:text-cyan-300 font-bold">
                 Home
               </Link>
             </li>
 
             <li>
-              <Link to="/about" className="hover:text-cyan-300">
+              <Link to="/about" className="hover:text-cyan-300 font-bold">
                 About
               </Link>
             </li>
             <li>
-              <Link to="/projects" className="hover:text-cyan-300">
+              <Link to="/projects" className="hover:text-cyan-300 font-bold">
                 Projects
               </Link>
             </li>
             <li>
-              <Link to="/blogs" className="hover:text-cyan-300">
+              <Link to="/blogs" className="hover:text-cyan-300 font-bold">
                 Blogs
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-cyan-300">
+              <Link to="/contact" className="hover:text-cyan-300 font-bold">
                 Contact
               </Link>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost hover:text-cyan-300 text-white normal-case text-xl font-mono">
-          Arshad's Portfolio
-        </a>
+        <Link to="/">
+          <a className="btn btn-ghost hover:text-cyan-300 text-white normal-case text-xl font-mono">
+            Arshad's Portfolio
+          </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex text-white  font-mono">
         <ul className="menu menu-horizontal px-1  ">
           <li>
-            <Link to="/" className="hover:text-cyan-300">
+            <Link to="/" className="hover:text-cyan-300 font-bold ">
               Home
             </Link>
           </li>
 
           <li>
-            <Link to="/about" className="hover:text-cyan-300">
+            <Link to="/about" className="hover:text-cyan-300 font-bold">
               About
             </Link>
           </li>
           <li>
-            <Link to="/projects" className="hover:text-cyan-300">
+            <Link to="/projects" className="hover:text-cyan-300 font-bold">
               Projects
             </Link>
           </li>
           <li>
-            <Link to="/blogs" className="hover:text-cyan-300">
+            <Link to="/blogs" className="hover:text-cyan-300 font-bold">
               Blogs
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-cyan-300">
+            <Link to="/contact" className="hover:text-cyan-300 font-bold">
               Contact
             </Link>
           </li>

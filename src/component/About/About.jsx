@@ -35,7 +35,7 @@ const About = () => {
               purposeful.
             </span>
             <br />
-            <a href="https://drive.google.com/file/d/1dBk6GeHuPFdICe010EbdxIv1LC19LyEE/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1tFGZG3RkzLexRDfRqW2Pvau0Q0ReThwr/view?usp=sharing">
               <button className="btn bg-cyan-300 mt-5 mb-5 hover:bg-green-600 hover:text-white">
                 <FaDownload></FaDownload> Resume
               </button>

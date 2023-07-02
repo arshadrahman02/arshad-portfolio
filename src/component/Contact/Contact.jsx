@@ -68,7 +68,7 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-            <div className="bg-cyan-300 w-full text-8xl text-center h-48">
+            <div className="bg-cyan-300 lg:w-full  lg:text-8xl text-4xl text-center h-28 lg:h-48">
               Let's Start Your Next Project !!!
             </div>
           </div>

@@ -45,7 +45,7 @@ const Banner = () => {
               <br />
               <a
                 target="_blank"
-                href="/public/Resume-Of-ShaikArshadRahman.pdf"
+                href="/public/RESUME-OF-SHAIK-ARSHAD-RAHMAN.pdf"
                 download
                 className="btn bg-amber-100 font-bold hover:bg-blue-400"
               >
