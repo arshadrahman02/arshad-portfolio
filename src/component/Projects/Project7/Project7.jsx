@@ -3,7 +3,7 @@ import Project7Button from "./Project7Button";
 import geometry from "../../../assets/project/geometry .png";
 const Project7 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-400 mt-10 ">
       <figure>
         <Project7Button imageUrl={geometry}></Project7Button>
       </figure>

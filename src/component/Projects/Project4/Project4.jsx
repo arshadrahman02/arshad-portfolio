@@ -3,7 +3,7 @@ import Project4Button from "./Project4Button";
 import books from "../../../assets/project/books.png";
 const Project4 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-400 mt-10 ">
       <figure>
         <Project4Button imageUrl={books}></Project4Button>
       </figure>

@@ -3,7 +3,7 @@ import Project2Button from "./Project2Button";
 import music from "../../../assets/project/music.png";
 const Project2 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-400 mt-10 ">
       <figure>
         <Project2Button imageUrl={music}></Project2Button>
       </figure>

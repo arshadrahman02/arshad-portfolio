@@ -3,7 +3,7 @@ import Project8Button from "./Project8Button";
 import weather from "../../../assets/project/weather.png";
 const Project8 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-400 mt-10 ">
       <figure>
         <Project8Button imageUrl={weather}></Project8Button>
       </figure>

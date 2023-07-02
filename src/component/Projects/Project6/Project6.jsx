@@ -3,7 +3,7 @@ import Project6Button from "./Project6Button";
 import quiz from "../../../assets/project/quiz.png";
 const Project6 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-400 mt-10 ">
       <figure>
         <Project6Button imageUrl={quiz}></Project6Button>
       </figure>
