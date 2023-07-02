@@ -4,7 +4,7 @@ import madToy from "../../../assets/project/madtoy.png";
 
 const Project1 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
       <figure>
         <ProjectButton imageUrl={madToy}></ProjectButton>
       </figure>

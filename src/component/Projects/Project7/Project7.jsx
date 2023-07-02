@@ -3,7 +3,7 @@ import Project7Button from "./Project7Button";
 import geometry from "../../../assets/project/geometry .png";
 const Project7 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
       <figure>
         <Project7Button imageUrl={geometry}></Project7Button>
       </figure>
@@ -14,7 +14,7 @@ const Project7 = () => {
             Live Link
           </button>
         </a>
-        <a href="">
+        <a href="https://github.com/arshadrahman02/assignment-geometry">
           {" "}
           <button className="btn btn-primary">GitHub Link</button>
         </a>

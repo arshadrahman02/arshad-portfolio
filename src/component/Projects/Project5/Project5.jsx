@@ -3,7 +3,7 @@ import Project5Button from "./Project5Button";
 import job from "../../../assets/project/jobhunter.png";
 const Project5 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
       <figure>
         <Project5Button imageUrl={job}></Project5Button>
       </figure>
@@ -14,7 +14,7 @@ const Project5 = () => {
             Live Link
           </button>
         </a>
-        <a href="">
+        <a href="https://github.com/arshadrahman02/assignment-job">
           {" "}
           <button className="btn btn-primary">GitHub Link</button>
         </a>

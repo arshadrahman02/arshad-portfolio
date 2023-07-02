@@ -3,7 +3,7 @@ import Project10Button from "./Project10Button";
 import legal from "../../../assets/project/legal.png";
 const Project10 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
       <figure>
         <Project10Button imageUrl={legal}></Project10Button>
       </figure>

@@ -3,7 +3,7 @@ import Project3Button from "./Project3Button";
 import chef from "../../../assets/project/chef.png";
 const Project3 = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl mt-10 ">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl shadow-slate-100 mt-10 ">
       <figure>
         <Project3Button imageUrl={chef}></Project3Button>
       </figure>
