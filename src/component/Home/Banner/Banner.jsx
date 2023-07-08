@@ -8,6 +8,13 @@ import { Typewriter } from "react-simple-typewriter";
 import { FaDownload, FaGithub } from "react-icons/fa";
 
 const Banner = () => {
+  const downloadResume = () => {
+    const resumeUrl = "RESUME-OF-SHAIK-ARSHAD-RAHMAN.pdf";
+    const anchor = document.createElement("a");
+    anchor.href = resumeUrl;
+    anchor.download = "RESUME-OF-SHAIK-ARSHAD-RAHMAN.pdf";
+    anchor.click();
+  };
   return (
     <div
       className="hero lg:h-[600px] h-[630px]  object-cover  "
@@ -43,14 +50,12 @@ const Banner = () => {
                 <FaGithub></FaGithub> github link
               </a>
               <br />
-              <a
-                target="_blank"
-                href="/public/RESUME-OF-SHAIK-ARSHAD-RAHMAN.pdf"
-                download
+              <p
+                onClick={downloadResume}
                 className="btn bg-amber-100 font-bold hover:bg-blue-400"
               >
                 <FaDownload></FaDownload> Download My Resume
-              </a>
+              </p>
             </div>
           </h1>
           <div className="flex lg:w-64 w-44 gap-3 mx-[95px] lg:mx-52 lg:mt-10">

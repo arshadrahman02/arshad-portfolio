@@ -27,7 +27,7 @@ const Card = () => {
 
         <div className=" lg:flex gap-3 mt-3 ">
           <div className="">
-            <a target="_blank" href="https://music-minds.netlify.app/">
+            <a target="_blank" href="https://madtoys.netlify.app/">
               <button className="btn bg-red-500 text-white hover:bg-red-600  ">
                 <TbWorldWww></TbWorldWww> Live Link
               </button>

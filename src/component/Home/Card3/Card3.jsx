@@ -12,7 +12,7 @@ const Card3 = () => {
         <ImageButton3 imageUrl={chef}></ImageButton3>
       </div>
       <div className="card-body">
-        <p className="card-title">Mad Toys (Full Stack MERN Website)</p>
+        <p className="card-title">Chef's kitchen (MERN Website)</p>
         <p className="font-bold">Features</p>
         <p>
           The Website is about to Resturant Base Website <br />
